@@ -1,2 +1,3 @@
-# sample-wordpress-theme
-Sample Wordpress Theme Structure
+# sample wordpress theme files
+
+Sample Wordpress Theme Structure & theme standards....
