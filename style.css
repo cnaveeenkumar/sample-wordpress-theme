@@ -1,0 +1,88 @@
+/*
+Theme Name: Theme Name
+Author: Developing Team
+Description: Responsive Wordpress Theme
+Version: 1.0
+*/
+
+/* WordPress Core */
+.alignnone {  margin: 5px 20px 20px 0;   }
+.aligncenter,div.aligncenter { display: block; margin: 5px auto 5px auto; }
+.alignright { float:right; margin: 5px 0 20px 20px;}
+.alignleft { float: left;  margin: 5px 20px 20px 0; }
+a img.alignright {  float: right;  margin: 5px 0 20px 20px;  }
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft { float: left; margin: 5px 20px 20px 0;   }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto }
+.wp-caption { background: #fff;  border: 1px solid #f0f0f0; max-width: 96%;padding: 5px 3px 10px; text-align: center; } // Image does not overflow the content area 
+.wp-caption.alignnone { margin: 5px 20px 20px 0; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0;  }
+.wp-caption.alignright {  margin: 5px 0 20px 20px; }
+.wp-caption img { border: 0 none;  height: auto; margin: 0; max-width: 98.5%; padding: 0; width: auto;}
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;margin: 0;padding: 0 4px 5px;}
+
+/**submenu**/
+.mainmenu .sub-menu {list-style: outside none none;  min-width: 250px;  padding: 0;  position: absolute;  z-index: 1000;  display:none;}
+.mainmenu li:hover .sub-menu{ display:block; }
+.mainmenu .sub-menu li{}
+.mainmenu .sub-menu li a { background: none repeat scroll 0 0 #ceaf6b;  display: block;  padding: 10px 15px !important;  text-align: left;  text-decoration: none; }
+.mainmenu .sub-menu li a:hover { background:#dabb73; }
+/**submenu**/
+
+
+/*Theme Inner page*/
+.wptheme_sidebar {
+    list-style: none;
+}
+.wptheme_sidebar ul li {
+    list-style: none;
+}
+.wptheme_sidebar ul {
+    margin-left: -35px;
+}
+.wptheme-container {
+    padding: 4% 0 4% 0;
+}
+.wptheme-container p {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}
+.wptheme-container li {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}
+.wptheme_sidebar li a {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}
+.wptheme-container h3 {
+  color: #555555;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.wptheme-container .error404 {
+    text-align: center;
+}
+.wptheme-container .error404 i.glyphicon {
+    font-size: 75px;
+    text-align: center;
+}
+.glyphicon-warning-sign:before {
+    content: "\e107";
+}
+.wptheme-image {
+    float: left;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
